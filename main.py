@@ -263,7 +263,6 @@ with tab4:
     st.write('''We are not SEBI registered and this article/guide is only for educations purposes. This is not an investment advice and we will not be liable for 
     any profits or losses made by following the content in this article. Please consult your financial advisor before taking any investment decisions.
     
-For any query, corrections or updations in this article, call us at +91-7276691545.
     ''')
 
 
@@ -272,13 +271,10 @@ st.markdown('##')
 st.markdown('##')
 st.write('Created with ❤️ by Shubham Harwani')
 
-website = 'https://www.trademadaari.in/about-us'
 instagram = 'https://instagram.com/oyesindhi_'
-github = 'https://github.com/oyesindhi'
+github = 'https://github.com/shubhamharwani'
 
-st.markdown(f'''<a href={website}><button style="background-color:#FF4B4B;">Visit Our Website</button></a> 
-
-<a href={instagram}><button style="background-color:#FF4B4B;">Follow Me on Instagram</button></a> 
+st.markdown(f'''<a href={instagram}><button style="background-color:#FF4B4B;">Follow Me on Instagram</button></a> 
 
 <a href={github}><button style="background-color:#FF4B4B;">Follow Me on GitHub</button></a>''',unsafe_allow_html=True)
 
